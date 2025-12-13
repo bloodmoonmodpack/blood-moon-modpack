@@ -22,10 +22,12 @@ const HeroSection = () => {
 
       {/* CTA Button */}
       <div className="opacity-0 animate-fade-in-up delay-200">
-        <Button variant="blood" size="lg">
-          <Download className="w-5 h-5 mr-2" />
-          Download Blood Moon Modpack
-        </Button>
+        <a href="https://bloodmoon.lol/modpack.zip" download>
+          <Button variant="blood" size="lg">
+            <Download className="w-5 h-5 mr-2" />
+            Download Blood Moon Modpack
+          </Button>
+        </a>
       </div>
 
       {/* Version tag */}
