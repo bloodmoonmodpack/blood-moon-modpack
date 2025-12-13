@@ -32,7 +32,7 @@ const HeroSection = () => {
 
       {/* Version tag */}
       <p className="opacity-0 animate-fade-in-up delay-300 mt-6 text-sm text-muted-foreground">
-        Version 1.0 • Minecraft 1.20.10
+        Version 1.0 • Minecraft 1.21.10
       </p>
     </section>
   );
