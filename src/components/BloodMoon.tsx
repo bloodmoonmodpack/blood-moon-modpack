@@ -31,8 +31,8 @@ const Star = ({ className }: { className?: string }) => (
 
 const BloodMoon = () => {
   return (
-    <div className="relative animate-pulse-glow animate-float">
-      <pre className="text-primary font-mono text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-none select-none whitespace-pre">
+    <div className="relative animate-pulse-glow animate-float flex items-center justify-center">
+      <pre className="text-primary font-mono text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-none select-none whitespace-pre text-center">
         {asciiMoon}
       </pre>
       
