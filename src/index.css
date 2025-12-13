@@ -126,6 +126,69 @@
   }
 }
 
+@keyframes bat-fly-1 {
+  0%, 100% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  25% {
+    transform: translate(10px, -8px) scaleX(0.8);
+  }
+  50% {
+    transform: translate(20px, 0) scaleX(1);
+  }
+  75% {
+    transform: translate(10px, 8px) scaleX(0.8);
+  }
+}
+
+@keyframes bat-fly-2 {
+  0%, 100% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  25% {
+    transform: translate(-12px, -6px) scaleX(0.7);
+  }
+  50% {
+    transform: translate(-24px, 0) scaleX(1);
+  }
+  75% {
+    transform: translate(-12px, 6px) scaleX(0.7);
+  }
+}
+
+@keyframes bat-fly-3 {
+  0%, 100% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  33% {
+    transform: translate(15px, -10px) scaleX(0.6);
+  }
+  66% {
+    transform: translate(8px, 5px) scaleX(1);
+  }
+}
+
+@keyframes bat-fly-4 {
+  0%, 100% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  50% {
+    transform: translate(8px, -12px) scaleX(0.7);
+  }
+}
+
+@keyframes bat-fly-5 {
+  0%, 100% {
+    transform: translate(0, 0) scaleX(1);
+  }
+  25% {
+    transform: translate(-8px, 6px) scaleX(0.8);
+  }
+  75% {
+    transform: translate(8px, -6px) scaleX(0.8);
+  }
+}
+
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
 }
@@ -144,6 +207,30 @@
 
 .animate-blood-drip {
   animation: blood-drip 1.5s ease-out forwards;
+}
+
+.animate-bat-1 {
+  animation: bat-fly-1 2.5s ease-in-out infinite;
+}
+
+.animate-bat-2 {
+  animation: bat-fly-2 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.animate-bat-3 {
+  animation: bat-fly-3 2.8s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-bat-4 {
+  animation: bat-fly-4 2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.animate-bat-5 {
+  animation: bat-fly-5 3.2s ease-in-out infinite;
+  animation-delay: 0.8s;
 }
 
 .delay-100 { animation-delay: 100ms; }
