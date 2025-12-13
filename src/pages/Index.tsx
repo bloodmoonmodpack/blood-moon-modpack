@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import FogEffect from "@/components/FogEffect";
 import BackgroundEffects from "@/components/BackgroundEffects";
+import BloodDrips from "@/components/BloodDrips";
 import WarningSection from "@/components/WarningSection";
 import LoreSection from "@/components/LoreSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -15,6 +16,9 @@ const Index = () => {
       
       {/* Background effects */}
       <BackgroundEffects />
+      
+      {/* Blood drips from top */}
+      <BloodDrips />
       
       {/* Fog effect */}
       <FogEffect />
