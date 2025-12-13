@@ -7,10 +7,14 @@ import WarningSection from "@/components/WarningSection";
 import LoreSection from "@/components/LoreSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
+import Navbar from "@/components/Navbar";
 
 const Index = () => {
   return (
     <main className="relative min-h-screen bg-background overflow-hidden">
+      {/* Navigation */}
+      <Navbar />
+      
       {/* Background gradient */}
       <div className="fixed inset-0 bg-gradient-dark pointer-events-none" />
       

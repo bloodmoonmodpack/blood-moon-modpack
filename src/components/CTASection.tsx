@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="relative py-32 px-4">
+    <section id="download" className="relative py-32 px-4">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6">
           Are you <span className="text-primary animate-flicker">ready</span>?
@@ -15,7 +15,7 @@ const CTASection = () => {
         
         <Button variant="blood" size="lg" className="text-lg px-8 py-6">
           <Download className="w-6 h-6 mr-3" />
-          Download Blood Moon
+          Download Blood Moon Modpack
         </Button>
         
         <p className="mt-8 text-muted-foreground/50 text-sm font-mono">
