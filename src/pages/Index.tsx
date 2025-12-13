@@ -1,13 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import FeaturesSection from "@/components/FeaturesSection";
+import FogEffect from "@/components/FogEffect";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <main className="relative min-h-screen bg-background overflow-hidden">
+      {/* Background gradient */}
+      <div className="fixed inset-0 bg-gradient-dark pointer-events-none" />
+      
+      {/* Fog effect */}
+      <FogEffect />
+
+      {/* Content */}
+      <div className="relative z-10">
+        <HeroSection />
+        <FeaturesSection />
+
+        {/* Footer */}
+        <footer className="py-12 border-t border-border/30 text-center">
+          <p className="text-muted-foreground text-sm">
+            Blood Moon Mod © 2024 • Made with fear and dedication
+          </p>
+        </footer>
       </div>
-    </div>
+    </main>
   );
 };
 
