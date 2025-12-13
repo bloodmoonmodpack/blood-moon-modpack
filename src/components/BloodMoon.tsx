@@ -1,5 +1,4 @@
-const asciiMoon = `
-                             aaaaaaaaaaaaaaaa
+const asciiMoon = `                             aaaaaaaaaaaaaaaa
                          aaaaaaaaaaaaaaaaaaaaaaaa
                       aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                     aaaaaaaaaaaaaaaaa           aaaaaa
@@ -18,8 +17,7 @@ const asciiMoon = `
                     aaaaaaaaaaaaaaaaa           aaaaaa
                       aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                          aaaaaaaaaaaaaaaaaaaaaaaa
-                             aaaaaaaaaaaaaaaa
-`;
+                             aaaaaaaaaaaaaaaa`;
 
 const Bat = ({ className }: { className?: string }) => (
   <span className={className}>~\v/~</span>
@@ -31,8 +29,8 @@ const Star = ({ className }: { className?: string }) => (
 
 const BloodMoon = () => {
   return (
-    <div className="relative animate-pulse-glow animate-float flex items-center justify-center">
-      <pre className="text-primary font-mono text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-none select-none whitespace-pre text-center">
+    <div className="relative animate-pulse-glow animate-float inline-block">
+      <pre className="text-primary font-mono text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-none select-none">
         {asciiMoon}
       </pre>
       

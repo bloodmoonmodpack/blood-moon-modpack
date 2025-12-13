@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
       {/* Blood moon */}
-      <div className="mb-8 flex items-center justify-center w-full">
+      <div className="mb-8 flex justify-center">
         <BloodMoon />
       </div>
 
