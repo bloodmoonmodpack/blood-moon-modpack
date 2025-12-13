@@ -1,15 +1,36 @@
-import bloodMoonImage from "@/assets/blood-moon-hero.png";
+const asciiMoon = `
+                    .  *  .    .   *
+         *    .        .        .      *
+    .        @@@@@@@@@@@@@@@@@@@@        .
+       *  @@@@@@@@@@@@@@@@@@@@@@@@@@  *
+    .   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@   .
+  *   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   *
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  *   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   *
+    .   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@   .
+       *  @@@@@@@@@@@@@@@@@@@@@@@@@@  *
+    .        @@@@@@@@@@@@@@@@@@@@        .
+         *    .        .        .      *
+                    .  *  .    .   *
+`;
 
 const BloodMoon = () => {
   return (
-    <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 animate-pulse-glow animate-float">
-      <img
-        src={bloodMoonImage}
-        alt="Blood Moon"
-        className="w-full h-full object-contain"
-      />
+    <div className="relative animate-pulse-glow animate-float">
+      <pre className="text-primary font-mono text-xs sm:text-sm md:text-base lg:text-lg leading-none select-none whitespace-pre">
+        {asciiMoon}
+      </pre>
       {/* Glow overlay */}
-      <div className="absolute inset-0 bg-blood-glow/20 rounded-full blur-3xl -z-10" />
+      <div className="absolute inset-0 bg-primary/20 blur-3xl -z-10 rounded-full" />
     </div>
   );
 };
