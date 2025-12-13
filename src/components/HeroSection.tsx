@@ -1,10 +1,10 @@
 import BloodMoon from "./BloodMoon";
 import { Button } from "./ui/button";
-import { Download, Github } from "lucide-react";
+import { Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
+    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
       {/* Blood moon */}
       <div className="mb-8 flex justify-center">
         <BloodMoon />
@@ -20,15 +20,11 @@ const HeroSection = () => {
         When night falls, terror rises. A Minecraft horror experience like no other.
       </p>
 
-      {/* CTA Buttons */}
-      <div className="opacity-0 animate-fade-in-up delay-200 flex flex-col sm:flex-row gap-4">
+      {/* CTA Button */}
+      <div className="opacity-0 animate-fade-in-up delay-200">
         <Button variant="blood" size="lg">
           <Download className="w-5 h-5 mr-2" />
-          Download Mod
-        </Button>
-        <Button variant="outline" size="lg">
-          <Github className="w-5 h-5 mr-2" />
-          View Source
+          Download Blood Moon Modpack
         </Button>
       </div>
 

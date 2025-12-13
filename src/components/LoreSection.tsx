@@ -15,7 +15,7 @@ const loreEntries = [
 
 const LoreSection = () => {
   return (
-    <section className="relative py-24 px-4">
+    <section id="lore" className="relative py-24 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-4">
