@@ -1,31 +1,38 @@
 const asciiMoon = `
-                        .  *  .    .   *
-               *    .        .        .      *
-           .                                    .
-                          @@@@@@@@@@@
-                       @@@@@@@@@@@@@@@@@
-                     @@@@@@@@@@@@@@@@
-                   @@@@@@@@@@@@@@@
-                  @@@@@@@@@@@@@@
-                 @@@@@@@@@@@@@
-                 @@@@@@@@@@@@
-                 @@@@@@@@@@@
-                 @@@@@@@@@@@@
-                 @@@@@@@@@@@@@
-                  @@@@@@@@@@@@@@
-                   @@@@@@@@@@@@@@@
-                     @@@@@@@@@@@@@@@@
-                       @@@@@@@@@@@@@@@@@
-                          @@@@@@@@@@@
-           .                                    .
-               *    .        .        .      *
-                        .  *  .    .   *
+        *                                                               .
+                  .           *                      .
+     .                                  *                          *
+                        ~\\v/~                                 .
+            *                          @@@@@@@@@@
+                   .                @@@@@@@@@@@@@@@             ~\\v/~
+      .                           @@@@@@@@@@@@@@@
+                                @@@@@@@@@@@@@@                       *
+           ~\\v/~              @@@@@@@@@@@@@
+                             @@@@@@@@@@@@                    .
+     *                      @@@@@@@@@@@
+                           @@@@@@@@@@                 *
+              .           @@@@@@@@@                            ~\\v/~
+                          @@@@@@@@
+                          @@@@@@@@                        .
+              .           @@@@@@@@@
+                           @@@@@@@@@@                 *
+     *                      @@@@@@@@@@@
+                             @@@@@@@@@@@@                    .
+           ~\\v/~              @@@@@@@@@@@@@
+                                @@@@@@@@@@@@@@                       *
+      .                           @@@@@@@@@@@@@@@
+                   .                @@@@@@@@@@@@@@@             ~\\v/~
+            *                          @@@@@@@@@@
+                        ~\\v/~                                 .
+     .                                  *                          *
+                  .           *                      .
+        *                                                               .
 `;
 
 const BloodMoon = () => {
   return (
     <div className="relative animate-pulse-glow animate-float">
-      <pre className="text-primary font-mono text-[8px] sm:text-xs md:text-sm leading-none select-none whitespace-pre">
+      <pre className="text-primary font-mono text-[6px] sm:text-[8px] md:text-[10px] lg:text-xs leading-none select-none whitespace-pre">
         {asciiMoon}
       </pre>
       {/* Glow overlay */}
