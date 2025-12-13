@@ -189,6 +189,43 @@
   }
 }
 
+@keyframes twinkle-1 {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(0.5);
+  }
+}
+
+@keyframes twinkle-2 {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes twinkle-3 {
+  0%, 20%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  10% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  60% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
+
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
 }
@@ -233,8 +270,21 @@
   animation-delay: 0.8s;
 }
 
+.animate-twinkle-1 {
+  animation: twinkle-1 2s ease-in-out infinite;
+}
+
+.animate-twinkle-2 {
+  animation: twinkle-2 2.5s ease-in-out infinite;
+}
+
+.animate-twinkle-3 {
+  animation: twinkle-3 3s ease-in-out infinite;
+}
+
 .delay-100 { animation-delay: 100ms; }
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }
 .delay-400 { animation-delay: 400ms; }
 .delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }

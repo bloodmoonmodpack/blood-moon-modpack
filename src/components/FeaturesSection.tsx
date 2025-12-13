@@ -5,32 +5,32 @@ const features = [
   {
     icon: Moon,
     title: "Dynamic Blood Moon",
-    description: "Experience terrifying nights when the blood moon rises. The world transforms into a nightmare realm.",
+    description: "When the Blood Moon rises, the night becomes a living nightmare. The world twists and corrupts itself, plunging everything into a realm of terror.",
   },
   {
     icon: Skull,
-    title: "New Hostile Mobs",
-    description: "Face horrifying new creatures that only emerge during the blood moon. Each more deadly than the last.",
+    title: "New Hostile Creatures",
+    description: "Encounter terrifying entities that emerge only under the Blood Moon. Each creature is uniquely designed to be more aggressive and far deadlier.",
   },
   {
     icon: Ghost,
     title: "Haunting Atmosphere",
-    description: "Immersive sound design and visual effects create an unforgettable horror experience.",
+    description: "Custom soundscapes, eerie ambient effects, and unsettling visuals transform the environment into a true horror experience.",
   },
   {
     icon: Eye,
-    title: "Enhanced AI",
-    description: "Mobs become smarter and more aggressive. They'll hunt you down with relentless determination.",
+    title: "Enhanced Enemy AI",
+    description: "During Blood Moon events, mobs become ruthless hunters. They track you, coordinate attacks, and exploit your mistakes with relentless precision.",
   },
   {
     icon: Sword,
-    title: "New Weapons",
-    description: "Craft powerful weapons infused with blood moon energy to fight back against the darkness.",
+    title: "Blood Moon Weapons",
+    description: "Forge powerful weapons infused with corrupted lunar energy. These specialized tools are your only hope against the horrors of the Blood Moon.",
   },
   {
     icon: Shield,
-    title: "Survival Mechanics",
-    description: "New sanity and fear systems add depth to your survival gameplay during blood moon nights.",
+    title: "Survival & Sanity Systems",
+    description: "Your mind is just as vulnerable as your body. New sanity and fear mechanics challenge you to manage panic and hallucinations.",
   },
 ];
 
