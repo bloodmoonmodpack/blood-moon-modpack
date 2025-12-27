@@ -1,7 +1,7 @@
 const loreEntries = [
   {
     title: "The First Night",
-    text: "It began as a myth. Travelers spoke of a man named akuma who thought he was speaking to a young man little did he know I was the master all along...",
+    text: "It began as a myth. Travelers spoke of a moon that bled across the sky, turning peaceful lands into hunting grounds. Few believed them. Fewer survived to tell the truth.",
   },
   {
     title: "The Corruption",
