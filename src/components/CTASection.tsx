@@ -13,7 +13,7 @@ const CTASection = () => {
           The Blood Moon awaits. Download now... if you dare.
         </p>
         
-        <a href="https://github.com/bloodmoonmodpack/blood-moon-modpack/releases/latest/download/modpack.zip" download>
+        <a href="https://github.com/bloodmoonmodpack/blood-moon-modpack/releases/latest/download/bloodmoonmodpack.zip" download>
           <Button variant="blood" size="lg" className="text-lg px-8 py-6">
             <Download className="w-6 h-6 mr-3" />
             Download Blood Moon Modpack
